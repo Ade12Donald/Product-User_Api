@@ -4,7 +4,7 @@ import userRouter from './routes/userRoutes.js'
 import productRouter from './routes/productRoutes.js'
 import 'dotenv/config'
 
-const MONGO_URL = process.env.COMPASS_URL;
+const MONGO_URL = process.env.ATLAS_URL;
 const PORT = process.env.PORT
 
 const app = express()
